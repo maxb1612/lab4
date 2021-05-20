@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Кошик</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+<header class="top-header">
+    <div class="wrapper">
+        <nav class="left-nav">
+            <ul>
+                <li>
+                    <a href="index.php?page=main" class="logo">
+                        <img src="./img/logo.svg" alt="logo"/>
+                    </a>
+                </li>
+                <li><a href="index.php?page=category">Піца</a></li>
+                <li><a href="index.php?page=category">Салати</a></li>
+                <li><a href="index.php?page=category">Напої</a></li>
+            </ul>
+        </nav>
+        <nav class="right-nav">
+            <ul>
+                <li>
+                    <a href="index.php?page=login" class="login-button">Вхід <i class="fas fa-user"></i></a>
+                </li>
+                <li>
+                    <a href="index.php?page=cart">
+                        <i class="fas fa-shopping-basket"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="wrapper">
+        <div class="content">
+            <div class="cart">
+                <h1>Кошик</h1>
+                <div class="cart-content">
+                    <div class="cart-item">
+                        <ul>
+                            <li><h2>Назва</h2></li>
+                            <li><h3>Склад</h3></li>
+                        </ul>
+                        <form>
+                            <button>
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <input name="cart-quantity" placeholder="1">
+                            <button>
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </form>
+                        <button class="remove-button" name="remove">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="cart-item">
+                        <ul>
+                            <li><h2>Назва</h2></li>
+                            <li><h3>Склад</h3></li>
+                        </ul>
+                        <form>
+                            <button>
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <input name="cart-quantity" placeholder="1">
+                            <button>
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </form>
+                        <button class="remove-button" name="remove">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="cart-item">
+                        <ul>
+                            <li><h2>Назва</h2></li>
+                            <li><h3>Склад</h3></li>
+                        </ul>
+                        <form>
+                            <button>
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <input name="cart-quantity" placeholder="1">
+                            <button>
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </form>
+                        <button class="remove-button" name="remove">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="cart-item">
+                        <ul>
+                            <li><h2>Назва</h2></li>
+                            <li><h3>Склад</h3></li>
+                        </ul>
+                        <form>
+                            <button>
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <input name="cart-quantity" placeholder="1">
+                            <button>
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </form>
+                        <button class="remove-button" name="remove">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+                <form class="order-button">
+                    <button>
+                        <a>Замовити</a>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+</footer>
+</body>
+</html>

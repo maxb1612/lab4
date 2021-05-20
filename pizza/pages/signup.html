@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Реєстрація</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+<header class="top-header">
+  <div class="wrapper">
+    <nav class="left-nav">
+      <ul>
+        <li>
+          <a href="index.php?page=main" class="logo">
+            <img src="./img/logo.svg" alt="logo"/>
+          </a>
+        </li>
+        <li><a href="index.php?page=category">Піца</a></li>
+        <li><a href="index.php?page=category">Салати</a></li>
+        <li><a href="index.php?page=category">Напої</a></li>
+      </ul>
+    </nav>
+    <nav class="right-nav">
+      <ul>
+        <li>
+          <a href="index.php?page=login" class="login-button">Вхід <i class="fas fa-user"></i></a>
+        </li>
+        <li>
+          <a href="index.php?page=cart">
+            <i class="fas fa-shopping-basket"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrapper">
+    <div class="container">
+      <div class="signup-box">
+        <h1>Реєстрація</h1>
+        <form>
+          <input  type="text" name="login" placeholder="Логін">
+          <input type="password" name="password" placeholder="Пароль">
+
+          <input type="password" name="repeat_password" placeholder="Повторіть пароль">
+          <button>
+            <a href="index.php?page=profile">Зареєструватись</a>
+          </button>
+          <button>
+            <a href="index.php?page=login">Увійти</a>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+</footer>
+</body>
+</html>
